@@ -13,17 +13,13 @@ import java.util.Scanner;
  */
 public class Cuadrado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         
         float lado;
-        Scanner obx=new Scanner(System.in);
+        Scanner obj=new Scanner(System.in);
         System.out.println("introduzca un lado");
-        lado=obx.nextFloat();
-        
+        lado=obj.nextFloat();
         System.out.println("EL area es "+(lado*lado));
     }
     
