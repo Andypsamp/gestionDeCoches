@@ -21,6 +21,8 @@ public class Cuadrado {
         System.out.println("introduzca un lado");
         lado=obj.nextFloat();
         System.out.println("EL area es "+(lado*lado));
+        
+        System.out.println("Holaaa");
     }
     
 }
